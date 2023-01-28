@@ -1,11 +1,9 @@
 spring:
-   application:
-     name: service-one
   datasource:
-   driverClassName: org.h2.Driver
-   password: password
-   url: jdbc:h2:file:/data/demo1
-   username: sa
+    driverClassName: org.h2.Driver
+    password: password
+    url: jdbc:h2:file:/data/demo1
+    username: sa
  
   jpa:
      database-platform: org.hibernate.dialect.H2Dialect
